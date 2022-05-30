@@ -2,14 +2,11 @@
 
 int main()
 {
- //let's assume the maximum array size as 100.
  int arr[100],size,i;
 
- //Get size input from user
  printf("Enter array size\n");
  scanf("%d",&size);
 
- //Get all elements using for loop and store it in array
  printf("Enter array elements\n");
  for(i = 0; i < size; i++)
  scanf("%d",&arr[i]);
